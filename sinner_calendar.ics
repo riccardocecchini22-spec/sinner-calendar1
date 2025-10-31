@@ -3,16 +3,34 @@ PRODID:-//Sinner Calendar by ChatGPT//EN
 VERSION:2.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Jannik Sinner (partite)
+X-WR-CALNAME:Jannik Sinner – partite aggiornate
 X-WR-TIMEZONE:Europe/Rome
 
 BEGIN:VEVENT
-UID:template@example.com
-DTSTAMP:20250101T120000Z
-DTSTART;VALUE=DATE:20250101
-DTEND;VALUE=DATE:20250102
-SUMMARY:Calendario attivo ✅
-DESCRIPTION:Questo calendario verrà aggiornato automaticamente con le partite di Jannik Sinner (avversario, orario italiano, turno, superficie, città).
+UID:vienna26oct25@example.com
+DTSTAMP:20251026T130000Z
+DTSTART:20251026T130000Z
+DTEND:20251026T150000Z
+SUMMARY:Sinner vs Daniel Altmaier – Vienna Open (Round 1)
+DESCRIPTION:Vienna Open – match previsto per le ore 13:00 UTC (14:00 ora italiana). Superficie: Hard Indoor.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:parismasters27oct@example.com
+DTSTAMP:20251027T090000Z
+DTSTART;VALUE=DATE:20251027
+DTEND;VALUE=DATE:20251103
+SUMMARY:Paris Masters – torneo
+DESCRIPTION:Rolex Paris Masters 2025. Sinner iscritto — date torneo. Orari partite da inserire.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:atpfinals9nov@example.com
+DTSTAMP:20251109T090000Z
+DTSTART;VALUE=DATE:20251109
+DTEND;VALUE=DATE:20251117
+SUMMARY:ATP Finals Torino – torneo
+DESCRIPTION:Finali ATP 2025 a Torino. Torneo completo, partite da dettagliare con orari.
 END:VEVENT
 
 END:VCALENDAR
