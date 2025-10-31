@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+PRODID:-//Sinner Calendar by ChatGPT//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jannik Sinner (partite)
+X-WR-TIMEZONE:Europe/Rome
+
+BEGIN:VEVENT
+UID:template@example.com
+DTSTAMP:20250101T120000Z
+DTSTART;VALUE=DATE:20250101
+DTEND;VALUE=DATE:20250102
+SUMMARY:Calendario attivo ✅
+DESCRIPTION:Questo calendario verrà aggiornato automaticamente con le partite di Jannik Sinner (avversario, orario italiano, turno, superficie, città).
+END:VEVENT
+
+END:VCALENDAR
